@@ -3,6 +3,8 @@ const { Router } = require('express');
 // Ejemplo: const authRouter = require('./auth.js');
 const axios = require('axios');
 const {Dog, Temperament} = require('../db.js');
+const getAllDogs = require('../controller/getAllDogs');
+const getTemperaments = require('../controller/getTemperaments');
 
 
 const router = Router();
@@ -10,6 +12,7 @@ const router = Router();
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
 
+/*
 //esta funcion trae la info de la api
 const getApiInfo = async () =>{
     const apiUrl = await axios.get('https://api.thedogapi.com/v1/breeds');
@@ -77,7 +80,7 @@ const getTemperaments = async () => {
         const allTemperaments = temp_Ok.filter( e => e!='')
         return allTemperaments
 }
-
+*/
 
 
 //------------------------Rutas-------------------------
