@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {Link, useHistory} from 'react-router-dom';
-import { getAllTemperaments, postDogs } from '../../actions';
+import { getAllTemperaments, postDogs } from '../../Redux/actions/index';
 import {useDispatch, useSelector} from 'react-redux';
 import './DogsCreate.css'
 

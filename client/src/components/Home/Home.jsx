@@ -8,7 +8,7 @@ import {
     filterCreated,
     sortByName,
     sortByWeight 
-       } from '../../actions/index';
+       } from '../../Redux/actions';
 import {Link} from 'react-router-dom';
 import Card from "../Card/Card";
 import Paginado from "../Paginado/Paginado";

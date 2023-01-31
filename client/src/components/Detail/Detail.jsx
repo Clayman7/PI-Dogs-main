@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import {getDetail} from '../../actions/index';
+import {getDetail} from '../../Redux/actions/index';
 import { useEffect } from 'react';
 import './Detail.css'
 import Card from '../Card/CardDetail';

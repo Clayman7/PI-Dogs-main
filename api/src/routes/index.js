@@ -150,7 +150,6 @@ router.post('/dogs', async (req, res) =>{
 //ruta que devuelve los temperamentos
 
 router.get('/temperaments', async (req, res) =>{
-    //const temperamentsApi = await axios.get('https://api.thedogapi.com/v1/breeds');
     try {
         const allTemperaments = await getTemperaments();
 

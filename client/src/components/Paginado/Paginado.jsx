@@ -14,11 +14,6 @@ function Paginado({dogsPerPage, allDogs, paginado, currentPage}){
     for (let i=0; i<= Math.ceil(largo); i++){
         pageNumbers.push(i+1);
     }
-/*
-    if(currentPage === pageNumbers.length + 1){
-        paginado(1);
-    } */
-    
   
     return (
       
