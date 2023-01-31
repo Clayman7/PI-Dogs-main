@@ -1,0 +1,52 @@
+ .divLP{
+  /*background-image: url('../../img/perro-corriendo.gif');
+  background-attachment: fixed;
+  background-position:  50% 50%; 
+  background-repeat: no-repeat; */
+}  
+  
+  .button {
+    position:absolute;
+    border-radius: 20px;
+    background-color: rgb(197, 197, 204);
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    padding: 20px;
+    width: 350px;
+    transition: all 0.5s;
+    cursor: pointer;
+    left: 37%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    
+    .button span {
+      cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+      
+    }
+    
+    .button span:after {
+    content: '\00ab';
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+    }
+    
+    .button:hover span {
+       padding-left: 25px;
+     }
+
+     .button:hover{
+      /*background-color: #ffe8d6; */
+      background-color: rgb(235, 235, 245);
+    }
+    
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
