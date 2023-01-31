@@ -40,7 +40,7 @@ const getApiInfo = async () =>{
     return apiInfo;
 }
 
-//esta funcion trae la info de la db
+
 const getDbInfo = async () =>{
     return await Dog.findAll({
         include:{
